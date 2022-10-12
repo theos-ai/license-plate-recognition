@@ -28,7 +28,6 @@ while camera_open:
     elapsed = time.time() - start
 
     if elapsed >= seconds_to_wait:
-        start = time.time()
         image_bytes = cv2.imencode('.jpg', frame)[1].tobytes()
         now = utils.get_time()
 
@@ -49,5 +48,7 @@ while camera_open:
               print(f'[{now}] [+] License plates saved:', ', '.join(license_plates))
         except Exception as error:
           pass
+
+        start = time.time()
 
 camera.release()
