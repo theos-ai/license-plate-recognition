@@ -4,7 +4,7 @@ import time
 import os
 
 
-URL = 'https://inf-fb95ed88-6696-4816-b355-b64c07c85e09-no4xvrhsfq-uc.a.run.app/detect'
+URL = 'https://inf-9c003fde-547b-4e2f-95f6-7711bc31c201-no4xvrhsfq-uc.a.run.app/detect'
 OCR_MODEL = 'large'
 OCR_CLASS = 'license-plate'
 FOLDER_PATH = 'license-plates'
