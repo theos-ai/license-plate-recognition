@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ### Copy and paste your Theos deployment URL inside run.py
 
-```
+``` python
 URL = '<your-deployment-url>'
 ```
 
