@@ -14,6 +14,12 @@ Make sure you have a camera connected to your computer, then run the following c
 pip install -r requirements.txt
 ```
 
+### Copy and paste your Theos deployment URL inside run.py
+
+```
+URL = '<your-deployment-url>'
+```
+
 ### Start the program
 
 ```
